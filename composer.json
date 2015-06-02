@@ -1,0 +1,23 @@
+{
+    "name": "mg-code/yii2-ajax-filter",
+    "description": "This filter throws an exception (BadRequestHttpException) if the applied action is receiving a non-AJAX request",
+    "keywords": ["yii2", "extension", "filter", "behavior"],
+    "homepage": "https://github.com/mg-code/yii2-ajax-filter",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Maris Graudins",
+			"role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mgcode\\ajaxfilter\\": ""
+        }
+    }
+}
