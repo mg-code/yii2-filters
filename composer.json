@@ -1,8 +1,8 @@
 {
-    "name": "mg-code/yii2-ajax-filter",
-    "description": "This filter throws an exception (BadRequestHttpException) if the applied action is receiving a non-AJAX request",
-    "keywords": ["yii2", "extension", "filter", "behavior"],
-    "homepage": "https://github.com/mg-code/yii2-ajax-filter",
+    "name": "mg-code/yii2-filters",
+    "description": "A collection of useful filters for Yii framework 2.0",
+    "keywords": ["yii2", "extension", "filter", "behavior", "ajax"],
+    "homepage": "https://github.com/mg-code/yii2-filters",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mgcode\\ajaxfilter\\": ""
+            "mgcode\\filters\\": ""
         }
     }
 }
