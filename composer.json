@@ -1,14 +1,14 @@
 {
     "name": "mg-code/yii2-filters",
     "description": "A collection of useful filters for Yii framework 2.0",
-    "keywords": ["yii2", "extension", "filter", "behavior", "ajax"],
+    "keywords": ["yii2", "extension", "filter", "behavior", "ajax", "csrf"],
     "homepage": "https://github.com/mg-code/yii2-filters",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
         {
-            "name": "Maris Graudins",
-			"role": "Developer"
+        	"name": "Maris Graudins",
+		"role": "Developer"
         }
     ],
     "minimum-stability": "dev",
