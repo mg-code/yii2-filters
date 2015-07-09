@@ -36,7 +36,7 @@ public function behaviors()
     return [
         'verbs' => [
             'class' => \mgcode\filters\DisableCsrfValidationFilter::className(),
-           'only' => ['feedback'],
+            'only' => ['feedback'],
         ],
     ];
 }
