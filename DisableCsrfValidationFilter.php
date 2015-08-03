@@ -12,7 +12,7 @@ use yii\base\ActionFilter;
  * public function behaviors()
  * {
  *     return [
- *         'verbs' => [
+ *         'disableCsrf' => [
  *             'class' => \mgcode\filters\DisableCsrfValidationFilter::className(),
  *             'only' => ['feedback'],
  *         ],

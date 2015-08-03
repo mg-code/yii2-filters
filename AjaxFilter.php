@@ -13,7 +13,7 @@ use yii\web\BadRequestHttpException;
  * public function behaviors()
  * {
  *     return [
- *         'verbs' => [
+ *         'onlyAjax' => [
  *             'class' => \mgcode\filters\AjaxFilter::className(),
  *             'only' => ['ajaxValidate'],
  *         ],

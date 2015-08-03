@@ -12,7 +12,7 @@ Use `only` and `except` properties to include/exclude actions from filter.
 public function behaviors()
 {
   return [
-      'verbs' => [
+      'onlyAjax' => [
           'class' => \mgcode\filters\AjaxFilter::className(),
           'only' => ['ajaxValidate'],
       ],
@@ -34,7 +34,7 @@ Use `only` and `except` properties to include/exclude actions from filter.
 public function behaviors()
 {
     return [
-        'verbs' => [
+        'disableCsrf' => [
             'class' => \mgcode\filters\DisableCsrfValidationFilter::className(),
             'only' => ['feedback'],
         ],
