@@ -19,6 +19,7 @@ use yii\web\BadRequestHttpException;
  *         ],
  *     ];
  * }
+ * ~~~
  */
 class AjaxFilter extends ActionFilter
 {

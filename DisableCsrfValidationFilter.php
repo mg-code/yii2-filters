@@ -18,6 +18,7 @@ use yii\base\ActionFilter;
  *         ],
  *     ];
  * }
+ * ~~~
  */
 class DisableCsrfValidationFilter extends ActionFilter
 {
